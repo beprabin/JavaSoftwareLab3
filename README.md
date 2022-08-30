@@ -18,3 +18,9 @@ swaps the value between two textfields.
 6. Design the calculator and add events to make it function properly.
 
 7. Design the GUI for calculating factorial.
+
+8. Design the currency converter.
+
+9. Design the GUI and use key event handling for desire results.
+
+10. Design the GUI and use mouse event handling for desire results
