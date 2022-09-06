@@ -11,6 +11,7 @@ import java.awt.event.*;
  * @author USER
  */
 public class Q7Factorial {
+    int fact=1;
     Q7Factorial(){
         Frame f=new Frame("Factorial");
         f.setSize(500,300);
@@ -31,7 +32,14 @@ public class Q7Factorial {
         b.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent ae){
                 int n1=Integer.parseInt(t.getText());
-                t1.setText(""+(n1*n1-1));
+                
+                for(int i=n1;i>=1;i--){
+                    fact=fact*(i);
+                    //System.out.println(""+a);
+                    //if(n1=1){}
+                    
+                }
+                t1.setText(""+Integer.toString(fact));
             }
         });
         
