@@ -8,7 +8,7 @@ import java.awt.*;
 import java.awt.event.*;
 /**
  *
- * @author PRABIN
+ * @author PRABI
  */
 public class Q6Calculator{
     Q6Calculator(){
