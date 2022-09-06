@@ -17,25 +17,23 @@ public class Q9KeyEvent {
         f.setLayout(new FlowLayout());
         Label l=new Label("Enter Text",Label.LEFT);
         TextField t=new TextField(10);
-        Label l1=new Label("  ");
+        Label l1=new Label();
         
         f.add(l);
         f.add(t);
         f.add(l1);
         
-        l.addKeyListener(new KeyListener(){
-            
-            
+        t.addKeyListener(new KeyListener(){
             public void keyTyped(KeyEvent ae){
                
-                
             }
             public void keyPressed(KeyEvent ae){
-               l1.setText(""+t.getText());
+               // l1.setText(""+t.getText());
             }
             public void keyReleased(KeyEvent ae){
-//               l1.getText();
-               l1.setText(""+t.getText());
+                //l1.getText();
+                l1.setSize(200,20);
+                l1.setText(""+t.getText());
             }
         });
         
